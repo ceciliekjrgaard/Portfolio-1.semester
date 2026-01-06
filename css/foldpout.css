@@ -1,0 +1,56 @@
+.tekstboks {
+  font-family: "Josefin Slab";
+  font-size: 20px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  line-height: 1.8em;
+  background-color: #fff;
+  border: 2px solid #ae6977;
+  margin: 2em;
+  padding: 2em;
+}
+.foldout {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+#togglebtn {
+  font-family: "Instrument serif";
+  font-style: normal 400;
+  font-weight: 200;
+  font-size: 15px;
+  align-items: right;
+  line-height: 1.8em;
+  border: 2px solid #fff;
+  background-color: #ae6977;
+  color: #fff;
+}
+#togglebtn1 {
+  font-family: "Instrument serif";
+  font-style: normal 400;
+  font-weight: 200;
+  font-size: 15px;
+  align-items: right;
+  line-height: 1.8em;
+  border: 2px solid #fff;
+  background-color: #ae6977;
+  color: #fff;
+}
+.position {
+  display: flex;
+  justify-content: end;
+}
+#togglebtn:hover {
+  cursor: pointer;
+  background-color: #fff;
+  border-color: #ae6977;
+  color: #ae6977;
+}
+#togglebtn1:hover {
+  cursor: pointer;
+  background-color: #fff;
+  border-color: #ae6977;
+  color: #ae6977;
+}

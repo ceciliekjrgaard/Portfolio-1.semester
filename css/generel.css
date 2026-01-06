@@ -1,0 +1,358 @@
+@import url("https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Imbue:opsz,wght@10..100,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Imbue:opsz,wght@10..100,100..900&family=Josefin+Slab:ital,wght@0,100..700;1,100..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Imperial+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Petit+Formal+Script&display=swap");
+
+img {
+  width: 100%;
+}
+.portræt {
+  width: 70%;
+  height: auto;
+  margin-top: 2em;
+  position: relative;
+  top: 10%;
+  right: 20%;
+}
+.portræt1 {
+  width: 30%;
+  margin-top: 2em;
+}
+video {
+  width: 100%;
+  height: auto;
+}
+
+h1 {
+  font-family: "Imbue";
+  font-style: black 700;
+  font-weight: 700;
+  font-size: 60px;
+  color: #3f2723;
+  margin-right: auto;
+  margin-top: 0.5em;
+  text-align: center;
+}
+.h1 {
+  font-family: "Imbue";
+  font-style: italic;
+  font-weight: 700;
+  font-size: 70px;
+  color: #f3c9d5;
+  margin-right: auto;
+  margin-top: 0em;
+  text-align: center;
+  margin-bottom: 0em;
+}
+.navn {
+  font-family: "Imbue";
+  font-style: italic;
+  font-weight: 700;
+  font-size: 40px;
+  color: #f3c9d5;
+  margin-right: auto;
+  margin-top: 0.5em;
+  text-align: center;
+  margin-bottom: 0.5em;
+}
+
+.h11 {
+  font-family: "Petit Formal Script";
+  font-style: Regular 400;
+  font-weight: 700;
+  font-size: 70px;
+  color: #c9818d;
+  position: absolute;
+  top: 52%; /* justér vertikal placering */
+  left: 30%; /* centrer horisontalt */
+  transform: translate(-50%, -50%);
+}
+
+.h111 {
+  font-family: "Instrument Serif";
+  font-style: italic;
+  font-weight: 700;
+  font-size: 15px;
+  color: #ae6977;
+  margin-right: auto;
+  margin-top: 2em;
+  text-align: center;
+  position: absolute;
+  top: 70%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+}
+.h1wrapper {
+  display: flex;
+  justify-content: center;
+  margin: 4em 0;
+}
+
+h2 {
+  font-family: "Instrument Serif";
+  font-style: italic;
+  font-weight: 700;
+  font-size: 25px;
+  color: #bba599;
+  margin-right: auto;
+  margin-top: 1em;
+  text-align: center;
+}
+
+.h2 {
+  font-family: "Instrument Serif";
+  font-style: italic;
+  font-weight: 700;
+  font-size: 30px;
+  color: #f3c9d5;
+  margin-right: auto;
+  margin-top: 1em;
+  text-align: center;
+}
+/* 
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: #3f2723 solid 1px;
+  position: relative;
+  z-index: 10;
+}
+   */
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1em;
+  border-bottom: 1px solid #3f2723;
+  position: relative;
+}
+
+.ck {
+  font-family: "Instrument Serif";
+  font-style: italic;
+  font-weight: 700;
+  font-size: 40px;
+  color: #ae6977;
+  list-style: none;
+  display: inline-block;
+  justify-content: flex-start;
+  text-decoration: none;
+  margin: 0em;
+  padding: 0em;
+}
+.ck:hover {
+  color: #3f2723;
+  cursor: pointer;
+}
+
+p {
+  font-family: "Josefin Slab";
+  font-style: normal 400;
+  font-weight: 400;
+  font-size: 20px;
+  margin: 2em;
+  margin-top: 0em;
+  padding: 2em;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  line-height: 1.8em;
+}
+
+.p {
+  font-family: "Josefin Slab";
+  font-style: normal 400;
+  font-weight: 400;
+  font-size: 20px;
+  justify-content: center;
+  align-items: center;
+  line-height: 1.5em;
+}
+.boks {
+  border-color: #f3c9d5;
+  border-radius: 10px;
+}
+.opgaveoversigt {
+  margin-top: 22px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 22px;
+  align-items: start;
+}
+
+ul.nav-links li a {
+  text-decoration: none;
+  color: #3f2723;
+  font-weight: 500;
+  font-family: "Instrument Serif";
+  font-style: italic;
+}
+
+ul.nav-links {
+  display: none;
+  justify-content: flex-end;
+  list-style: none;
+  gap: 1em;
+  margin: 0px;
+  padding: 0px;
+}
+
+ul.nav-links li a:hover {
+  color: #ae6977;
+}
+
+/*  
+ul.nav-links {
+  position: absolute;
+  top: 100px;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  flex-direction: column;
+  align-items: center;
+  display: none;
+  padding: 1em 0;
+  border-bottom: #3f2723 solid 1px;
+}
+  */
+
+ul.nav-links.active {
+  display: flex;
+}
+ul.nav-links li {
+  margin: 0.5em 0;
+}
+
+.hero {
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.site {
+  font-family: "Instrument Serif";
+  font-weight: 700;
+  font-size: 25px;
+  color: #fff;
+  background-color: #ae6977;
+  padding: 0.5em;
+  margin: 2em;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+.site:hover:hover {
+  color: #f3c9d5;
+}
+
+.projektknap {
+  display: inline-block;
+  background-color: #bba599;
+  color: #fff;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  font-weight: 700;
+  font-family: "Instrument Serif";
+  font-size: 20px;
+  transition: background-color 0.3s ease;
+  justify-content: center;
+}
+.projektknap a {
+  color: inherit;
+  text-decoration: none;
+}
+.projektknap:hover {
+  background-color: #f3c9d5;
+}
+.projektknap1 {
+  display: inline-block;
+  background-color: #ae6977;
+  color: #fff;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  font-weight: 700;
+  font-family: "Instrument Serif";
+  font-size: 20px;
+  transition: background-color 0.3s ease;
+  justify-content: center;
+}
+.projektknap1 a {
+  color: inherit;
+  text-decoration: none;
+}
+.projektknap1:hover {
+  background-color: #f3c9d5;
+}
+footer {
+  background-color: #3f2723;
+  color: #fff;
+  text-align: right;
+}
+
+@media (min-width: 800px) {
+  .navn {
+    font-family: "Imbue";
+    font-style: italic;
+    font-weight: 700;
+    font-size: 70px;
+    color: #f3c9d5;
+    margin-right: auto;
+    margin-top: 0.5em;
+    text-align: center;
+    margin-bottom: 0.5em;
+  }
+  .h1 {
+    font-family: "Imbue";
+    font-style: italic;
+    font-weight: 700;
+    font-size: 120px;
+    color: #f3c9d5;
+    margin-right: auto;
+    margin-top: 0em;
+    text-align: center;
+    margin-bottom: 0em;
+  }
+
+  .h11 {
+    font-family: "Petit Formal Script";
+    font-style: Regular 400;
+    font-weight: 700;
+    font-size: 120px;
+    color: #c9818d;
+    position: absolute;
+    top: 52%; /* justér vertikal placering */
+    left: 30%; /* centrer horisontalt */
+    transform: translate(-50%, -50%);
+  }
+
+  .h111 {
+    font-family: "Instrument Serif";
+    font-style: italic;
+    font-weight: 700;
+    font-size: 20px;
+    color: #ae6977;
+    margin-right: auto;
+    margin-top: 2em;
+    text-align: center;
+    position: absolute;
+    top: 72%; /* justér vertikal placering */
+    left: 20%; /* centrer horisontalt */
+    transform: translate(-50%, -50%);
+  }
+  ul.nav-links {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    gap: 1em;
+    margin: 0px;
+    padding: 0px;
+  }
+}
